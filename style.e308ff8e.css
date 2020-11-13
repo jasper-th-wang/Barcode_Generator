@@ -1,0 +1,52 @@
+.bcContainer {
+  width: 204px;
+  height: 170px;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: white;
+  padding: 10px 0;
+  position: relative;
+  overflow: clip;
+}
+.bcContainer #sku {
+  display: block;
+  text-align: left;
+  position: absolute;
+  top: 6%;
+  left: 13%;
+  width: 170px;
+  z-index: 10;
+  word-break: break-all;
+  /* margin-bottom: 0px; */
+}
+
+svg {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -38%) !important;
+}
+
+button {
+  margin-top: 2rem;
+}
+
+.length-validate {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.code-validate {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
